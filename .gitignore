@@ -1,0 +1,34 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+publish/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Backup & report files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.mdb
+
+# Other files to ignore
+*.log
+*.cache
+*.vspscc
+*.vssscc
+*.tlog
+*.ide

@@ -1,0 +1,8 @@
+@model BookManager.Models.Book
+
+<h1>@Model.Title</h1>
+<p><strong>Autor:</strong> @Model.Author</p>
+<p><strong>Gênero:</strong> @Model.Genre</p>
+<p><strong>Ano de Publicação:</strong> @Model.PublishedYear</p>
+<p><strong>Descrição:</strong> @Model.Description</p>
+<a asp-action="Index">Voltar à lista</a>
